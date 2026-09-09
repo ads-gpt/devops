@@ -8,8 +8,8 @@ A simple Student Information App used to demonstrate collaborative Git workflows
 | Name    | Role                |
 |---------|---------------------|
 | Adarsh  | Team Lead / Developer |
-| Nandini | UI Developer        |
-| Ahanya  | JavaScript Developer |
+| Ahanya | UI Developer        |
+| Nandini  | JavaScript Developer |
 
 ## Project Description
 
@@ -46,10 +46,10 @@ commits, Pull Requests, merges, and conflict resolution).
 | PR | Source → Target | Purpose |
 |----|------------------|---------|
 | #1 | `feature/javascript` → `main` | Add "Show Details" functionality |
-| #2 | `feature/ui` → `main` | Improve student information UI |
-| #3 | `feature/contact` → `main` | Add contact information |
-| #4 | `feature/student-name` → `main` | Update application heading |
-| #5 | `feature/app-title` → `main` | Update application title (conflicted with PR #4, resolved before merge) |
+| #2 | `feature/app-title` → `main` | Update application title; deliberately conflicted with PR #5 and was resolved locally |
+| #3 | `feature/ui` → `main` | Improve student information UI |
+| #4 | `feature/contact` → `main` | Add contact information |
+| #5 | `feature/student-name` → `main` | Update application heading |
 
 ## Merge Conflict
 
